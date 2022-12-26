@@ -1,0 +1,7 @@
+version: '3.3'    
+services:
+  opencv:
+    image: "minhnd/base_ubuntu"
+    build:
+      context: ../
+      dockerfile: ./DockerBuild/Dockerfile
