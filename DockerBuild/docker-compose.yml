@@ -1,7 +1,7 @@
 version: '3.3'    
 services:
   opencv:
-    image: "minhnd/base_ubuntu"
+    image: "mvs_texturing/base_ubuntu"
     build:
       context: ../
       dockerfile: ./DockerBuild/Dockerfile
